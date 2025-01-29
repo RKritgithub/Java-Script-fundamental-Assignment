@@ -1,0 +1,19 @@
+Answers  
+
+1. **Arithmetic Operators** – Perform mathematical calculations.  
+   *Example:* `let sum = 5 + 3; // 8`  
+
+2. **Comparison Operators** – Compare values and return `true` or `false`.  
+   *Example:* `console.log(5 > 3); // true`  
+
+3. **Logical Operators** – Used in conditional statements.  
+   *Example:* `console.log(true && false); // false`  
+
+4. **Assignment Operators** – Assign values to variables.  
+   *Example:* `let x = 10; x += 5; // 15`  
+
+5. **Bitwise Operators** – Operate at the binary level.  
+   *Example:* `console.log(5 & 1); // 1`  
+
+6. **Ternary Operator** – A shorthand for `if-else`.  
+   *Example:* `let result = (5 > 3) ? "Yes" : "No";`

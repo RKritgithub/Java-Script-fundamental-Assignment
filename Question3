@@ -1,0 +1,7 @@
+Answer3
+
+| **Unary Operator** | Works with a **single operand**. | `let x = 5; console.log(-x); // -5` |
+| **Binary Operator** | Works with **two operands**. | `let sum = 10 + 5; // 15` |
+| **Ternary Operator** | Works with **three operands** and is used for conditional expressions. | `let result = (5 > 3) ? "Yes" : "No";` |
+
+Unary operators include `++`, `--`, `typeof`, and `!`. Binary operators include arithmetic, comparison, and logical operators. The ternary operator (`condition ? expr1 : expr2`) is a shorthand for `if-else` statements.

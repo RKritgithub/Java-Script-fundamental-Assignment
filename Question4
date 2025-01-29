@@ -1,0 +1,28 @@
+Answer4
+
+#### **1. Operator Precedence**  
+Operator precedence determines the **order in which operations are executed** when multiple operators appear in an expression. Higher precedence operators are evaluated first.  
+
+**Example:**  
+```js
+let result = 5 + 3 * 2;  // Output: 11 (Multiplication happens first)
+```
+Here, `*` has higher precedence than `+`, so multiplication occurs before addition.  
+
+#### **2. Operator Associativity**  
+When operators have the **same precedence**, associativity determines the **order of execution** (left-to-right or right-to-left).  
+
+**Example (Left-to-Right Associativity):**  
+```js
+let value = 10 / 5 * 2;  // Output: 4 (Division happens first, then multiplication)
+```
+**Example (Right-to-Left Associativity):**  
+```js
+let x = y = z = 10;  // Assignment happens from right to left
+```
+Here, `z = 10` is evaluated first, then assigned to `y`, then `x`.  
+
+#### **Why is Understanding This Important?**  
+- Helps avoid **unexpected results** in calculations.  
+- Ensures **correct logic** in complex expressions.  
+- Reduces **debugging errors** in code execution.  
